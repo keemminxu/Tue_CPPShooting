@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CPP_Shooting_Tue.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0FE9267C-7776-457E-A905-A2E722687A5B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CPP_Shooting_Tue.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CPP_Shooting_TueEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{711F5CDD-1659-4455-8B07-091C2CE133C8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CPP_Shooting_Tue">
+      <UniqueIdentifier>{600C3318-6793-49D8-A3D6-B9E782CEAF4C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CPP_Shooting_Tue\CPP_Shooting_Tue.Build.cs">
+      <Filter>Source\CPP_Shooting_Tue</Filter>
+    </None>
+    <Filter Include="Source\CPP_Shooting_Tue\Private">
+      <UniqueIdentifier>{CCA6228E-095E-440E-B384-C8E01355D48A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\CPP_Shooting_Tue.cpp">
+      <Filter>Source\CPP_Shooting_Tue\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\CPP_Shooting_TueGameModeBase.cpp">
+      <Filter>Source\CPP_Shooting_Tue\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\PlayerMove.cpp">
+      <Filter>Source\CPP_Shooting_Tue\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\ShootPlayer.cpp">
+      <Filter>Source\CPP_Shooting_Tue\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CPP_Shooting_Tue\Public">
+      <UniqueIdentifier>{090AEE78-8179-455A-A7CE-7AC092B0B73C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\CPP_Shooting_Tue.h">
+      <Filter>Source\CPP_Shooting_Tue\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\CPP_Shooting_TueGameModeBase.h">
+      <Filter>Source\CPP_Shooting_Tue\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\PlayerMove.h">
+      <Filter>Source\CPP_Shooting_Tue\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\ShootPlayer.h">
+      <Filter>Source\CPP_Shooting_Tue\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

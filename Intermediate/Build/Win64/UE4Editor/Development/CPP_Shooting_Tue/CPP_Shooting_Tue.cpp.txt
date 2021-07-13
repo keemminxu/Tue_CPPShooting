@@ -1,0 +1,2 @@
+C:\project\CPP_Shooting_Tue\Intermediate\Build\Win64\UE4Editor\Development\CPP_Shooting_Tue\Definitions.CPP_Shooting_Tue.h
+C:\project\CPP_Shooting_Tue\Source\CPP_Shooting_Tue\Public\CPP_Shooting_Tue.h
