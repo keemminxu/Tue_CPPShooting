@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\project\\CPP_Shooting_Tue\\Source\\CPP_Shooting_Tue\\CPP_Shooting_Tue.Build.cs",
-		"C:\\project\\CPP_Shooting_Tue\\Source\\CPP_Shooting_Tue.Target.cs",
-		"C:\\project\\CPP_Shooting_Tue\\Source\\CPP_Shooting_TueEditor.Target.cs"
+		"C:\\Github\\Tue_CPPShooting\\Source\\CPP_Shooting_Tue\\CPP_Shooting_Tue.Build.cs",
+		"C:\\Github\\Tue_CPPShooting\\Source\\CPP_Shooting_Tue.Target.cs",
+		"C:\\Github\\Tue_CPPShooting\\Source\\CPP_Shooting_TueEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.2"
 }

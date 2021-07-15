@@ -26,6 +26,19 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY(VisibleAnywhere, Category = "Component")
+	UPROPERTY(VisibleAnywhere, Category = "Player Move")
 	class UPlayerMove* playerMove;
+
+	UPROPERTY(VisibleAnywhere, Category = "Player Fire")
+	class UPlayerFire* playerFire;
+
+	UPROPERTY(VisibleAnywhere, Category = "FirePosition")
+	class UArrowComponent* firePosition;
+
+	UPROPERTY(VisibleAnywhere, Category = "Collision")
+	class UBoxComponent* collision;
+
+	UPROPERTY(VisibleAnywhere, Category = "Body Mesh")
+	class UStaticMeshComponent* bodyMesh;
+
 };

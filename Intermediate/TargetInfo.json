@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "CPP_Shooting_Tue",
-			"Path": "C:\\project\\CPP_Shooting_Tue\\Source\\CPP_Shooting_Tue.Target.cs",
+			"Path": "C:\\Github\\Tue_CPPShooting\\Source\\CPP_Shooting_Tue.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "CPP_Shooting_TueEditor",
-			"Path": "C:\\project\\CPP_Shooting_Tue\\Source\\CPP_Shooting_TueEditor.Target.cs",
+			"Path": "C:\\Github\\Tue_CPPShooting\\Source\\CPP_Shooting_TueEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

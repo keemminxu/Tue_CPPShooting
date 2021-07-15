@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CPP_SHOOTING_TUE_PlayerMove_generated_h
 
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_SPARSE_DATA
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_RPC_WRAPPERS
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_INCLASS_NO_PURE_DECLS \
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_SPARSE_DATA
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_RPC_WRAPPERS
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayerMove(); \
 	friend struct Z_Construct_UClass_UPlayerMove_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayerMove)
 
 
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_INCLASS \
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayerMove(); \
 	friend struct Z_Construct_UClass_UPlayerMove_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayerMove)
 
 
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_STANDARD_CONSTRUCTORS \
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayerMove(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayerMove) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_ENHANCED_CONSTRUCTORS \
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPlayerMove(UPlayerMove&&); \
@@ -58,31 +58,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayerMove); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPlayerMove)
 
 
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_PRIVATE_PROPERTY_OFFSET \
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__me() { return STRUCT_OFFSET(UPlayerMove, me); }
 
 
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_13_PROLOG
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_GENERATED_BODY_LEGACY \
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_13_PROLOG
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_PRIVATE_PROPERTY_OFFSET \
-	CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_SPARSE_DATA \
-	CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_RPC_WRAPPERS \
-	CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_INCLASS \
-	CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_STANDARD_CONSTRUCTORS \
+	Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_PRIVATE_PROPERTY_OFFSET \
+	Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_SPARSE_DATA \
+	Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_RPC_WRAPPERS \
+	Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_INCLASS \
+	Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_GENERATED_BODY \
+#define Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_PRIVATE_PROPERTY_OFFSET \
-	CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_SPARSE_DATA \
-	CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_INCLASS_NO_PURE_DECLS \
-	CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_ENHANCED_CONSTRUCTORS \
+	Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_PRIVATE_PROPERTY_OFFSET \
+	Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_SPARSE_DATA \
+	Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_INCLASS_NO_PURE_DECLS \
+	Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -90,7 +90,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> CPP_SHOOTING_TUE_API UClass* StaticClass<class UPlayerMove>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID CPP_Shooting_Tue_Source_CPP_Shooting_Tue_Public_PlayerMove_h
+#define CURRENT_FILE_ID Tue_CPPShooting_Source_CPP_Shooting_Tue_Public_PlayerMove_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
