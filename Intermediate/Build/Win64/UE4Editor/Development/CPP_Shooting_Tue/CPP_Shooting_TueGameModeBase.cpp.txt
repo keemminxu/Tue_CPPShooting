@@ -1,7 +1,7 @@
-C:\Github\Tue_CPPShooting\Intermediate\Build\Win64\UE4Editor\Development\CPP_Shooting_Tue\Definitions.CPP_Shooting_Tue.h
-C:\Github\Tue_CPPShooting\Source\CPP_Shooting_Tue\Public\CPP_Shooting_TueGameModeBase.h
+C:\project\Github\Tue_CPPShooting\Intermediate\Build\Win64\UE4Editor\Development\CPP_Shooting_Tue\Definitions.CPP_Shooting_Tue.h
+C:\project\Github\Tue_CPPShooting\Source\CPP_Shooting_Tue\Public\CPP_Shooting_TueGameModeBase.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Github\Tue_CPPShooting\Intermediate\Build\Win64\UE4Editor\Inc\CPP_Shooting_Tue\CPP_Shooting_TueGameModeBase.generated.h
+C:\project\Github\Tue_CPPShooting\Intermediate\Build\Win64\UE4Editor\Inc\CPP_Shooting_Tue\CPP_Shooting_TueGameModeBase.generated.h

@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I C:\project\CPP_Shooting_Tue\Source\CPP_Shooting_Tue\Private
+/I C:\Github\Tue_CPPShooting\Source\CPP_Shooting_Tue\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -231,9 +231,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\project\CPP_Shooting_Tue\Intermediate\Build\Win64\UE4Editor\Inc\CPP_Shooting_Tue
-/I C:\project\CPP_Shooting_Tue\Source
-/I C:\project\CPP_Shooting_Tue\Source\CPP_Shooting_Tue\Public
+/I C:\Github\Tue_CPPShooting\Intermediate\Build\Win64\UE4Editor\Inc\CPP_Shooting_Tue
+/I C:\Github\Tue_CPPShooting\Source
+/I C:\Github\Tue_CPPShooting\Source\CPP_Shooting_Tue\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -258,17 +258,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\project\CPP_Shooting_Tue\Intermediate\Build\Win64\CPP_Shooting_TueEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\project\CPP_Shooting_Tue\Intermediate\Build\Win64\CPP_Shooting_TueEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\project\CPP_Shooting_Tue\Intermediate\Build\Win64\CPP_Shooting_TueEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\project\CPP_Shooting_Tue\Source\CPP_Shooting_Tue\Private\CPP_Shooting_Tue.cpp"
-/FI"C:\project\CPP_Shooting_Tue\Intermediate\Build\Win64\UE4Editor\Development\CPP_Shooting_Tue\Definitions.CPP_Shooting_Tue.h"
-/Fo"C:\project\CPP_Shooting_Tue\Intermediate\Build\Win64\UE4Editor\Development\CPP_Shooting_Tue\CPP_Shooting_Tue.cpp.obj"
+/FI"C:\Github\Tue_CPPShooting\Intermediate\Build\Win64\CPP_Shooting_TueEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Github\Tue_CPPShooting\Intermediate\Build\Win64\CPP_Shooting_TueEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Github\Tue_CPPShooting\Intermediate\Build\Win64\CPP_Shooting_TueEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Github\Tue_CPPShooting\Source\CPP_Shooting_Tue\Private\CPP_Shooting_Tue.cpp"
+/FI"C:\Github\Tue_CPPShooting\Intermediate\Build\Win64\UE4Editor\Development\CPP_Shooting_Tue\Definitions.CPP_Shooting_Tue.h"
+/Fo"C:\Github\Tue_CPPShooting\Intermediate\Build\Win64\UE4Editor\Development\CPP_Shooting_Tue\CPP_Shooting_Tue.cpp.obj"
 /TP
 /GR-
 /W4

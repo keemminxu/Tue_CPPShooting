@@ -5,6 +5,7 @@
 #include "Bullet.h"
 #include "ShootPlayer.h"
 #include <Components/ArrowComponent.h>
+#include <Kismet/GameplayStatics.h>
 
 
 // Sets default values for this component's properties
@@ -28,7 +29,7 @@ void UPlayerFire::BeginPlay()
 	// 이 컴포넌트를 소유하고 있는 엑터를 반환
 	me = Cast<AShootPlayer>(GetOwner());
 
-	// 2. ShootPlayer 객체에 있는 총구를 가져오고 시팓.
+	// 2. ShootPlayer 객체에 있는 총구를 가져오고 싶다.
 	auto fp = Cast<UArrowComponent>(me->GetDefaultSubobjectByName(TEXT("FirePosition")));
 
 	// 3. 총구를 내 속성변수인 firePostion에 할당하고 싶다.
@@ -60,4 +61,7 @@ void UPlayerFire::Fire()
 		bullet->SetActorLocation(firePosition->GetComponentLocation());
 		bullet->SetActorRotation(firePosition->GetComponentRotation());
 	}
+
+	// 총알 사운드 재생
+	UGameplayStatics::PlaySound2D(GetWorld(), bulletSound);
 }

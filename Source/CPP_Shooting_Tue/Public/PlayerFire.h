@@ -37,4 +37,8 @@ public:
 	// 필요속성 : 총구, 총알공장
 	UPROPERTY(EditDefaultsOnly, Category = "Bullet Factory")
 	TSubclassOf<class ABullet> bulletFactory;
+
+	// 총알사운드
+	UPROPERTY(EditDefaultsOnly, Category = "Bullet Sound")
+	class USoundBase* bulletSound;
 };

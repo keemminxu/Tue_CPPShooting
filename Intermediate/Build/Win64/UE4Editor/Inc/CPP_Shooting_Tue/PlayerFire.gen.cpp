@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerFire() {}
 	ENGINE_API UClass* Z_Construct_UClass_UArrowComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	CPP_SHOOTING_TUE_API UClass* Z_Construct_UClass_ABullet_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 // End Cross Module References
 	void UPlayerFire::StaticRegisterNativesUPlayerFire()
 	{
@@ -47,6 +48,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerFire() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bulletFactory_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_bulletFactory;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bulletSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bulletSound;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -85,10 +90,20 @@ void EmptyLinkFunctionForGeneratedCodePlayerFire() {}
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UPlayerFire_Statics::NewProp_bulletFactory = { "bulletFactory", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerFire, bulletFactory), Z_Construct_UClass_ABullet_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UPlayerFire_Statics::NewProp_bulletFactory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerFire_Statics::NewProp_bulletFactory_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerFire_Statics::NewProp_bulletSound_MetaData[] = {
+		{ "Category", "Bullet Sound" },
+		{ "Comment", "// ?\xd1\xbe\xcb\xbb?????\n" },
+		{ "ModuleRelativePath", "Public/PlayerFire.h" },
+		{ "ToolTip", "?\xd1\xbe\xcb\xbb?????" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerFire_Statics::NewProp_bulletSound = { "bulletSound", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerFire, bulletSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerFire_Statics::NewProp_bulletSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerFire_Statics::NewProp_bulletSound_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerFire_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerFire_Statics::NewProp_me,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerFire_Statics::NewProp_firePosition,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerFire_Statics::NewProp_bulletFactory,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerFire_Statics::NewProp_bulletSound,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UPlayerFire_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UPlayerFire>::IsAbstract,
@@ -117,7 +132,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerFire() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerFire, 3944385958);
+	IMPLEMENT_CLASS(UPlayerFire, 1700254708);
 	template<> CPP_SHOOTING_TUE_API UClass* StaticClass<UPlayerFire>()
 	{
 		return UPlayerFire::StaticClass();
