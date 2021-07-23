@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CPP_Shooting_Tue.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{15172BCF-7C04-4866-9905-8C5B8660722C}</UniqueIdentifier>
+      <UniqueIdentifier>{83219676-EFF1-4B7F-91D8-70A74FF783A6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CPP_Shooting_Tue.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{70BF6D25-41CA-45A6-8DA5-538EF339236A}</UniqueIdentifier>
+      <UniqueIdentifier>{7CB0997F-150E-4722-BCB8-304D661FFEF1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,13 +29,13 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CPP_Shooting_Tue">
-      <UniqueIdentifier>{67A229D5-7AAD-40CD-AE77-03554498E4CB}</UniqueIdentifier>
+      <UniqueIdentifier>{4EF82E24-6FCB-4AF3-96FE-5608367455CF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CPP_Shooting_Tue\CPP_Shooting_Tue.Build.cs">
       <Filter>Source\CPP_Shooting_Tue</Filter>
     </None>
     <Filter Include="Source\CPP_Shooting_Tue\Private">
-      <UniqueIdentifier>{96A1F79D-833B-406A-B64A-4F6E4C28ACF0}</UniqueIdentifier>
+      <UniqueIdentifier>{657259ED-F156-4297-9C6F-65287C21BBF0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\Bullet.cpp">
       <Filter>Source\CPP_Shooting_Tue\Private</Filter>
@@ -46,6 +46,9 @@
     <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\CPP_Shooting_TueGameModeBase.cpp">
       <Filter>Source\CPP_Shooting_Tue\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\DestroyZone.cpp">
+      <Filter>Source\CPP_Shooting_Tue\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\Enemy.cpp">
       <Filter>Source\CPP_Shooting_Tue\Private</Filter>
     </ClCompile>
@@ -53,6 +56,9 @@
       <Filter>Source\CPP_Shooting_Tue\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\EnemyMove.cpp">
+      <Filter>Source\CPP_Shooting_Tue\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\GameOverUI.cpp">
       <Filter>Source\CPP_Shooting_Tue\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CPP_Shooting_Tue\Private\PlayerFire.cpp">
@@ -65,7 +71,7 @@
       <Filter>Source\CPP_Shooting_Tue\Private</Filter>
     </ClCompile>
     <Filter Include="Source\CPP_Shooting_Tue\Public">
-      <UniqueIdentifier>{2E6DCF50-D903-4EBB-BFE3-C8719410E8AA}</UniqueIdentifier>
+      <UniqueIdentifier>{F5349397-BCB7-4A2C-80A0-EAEC8798D56C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\Bullet.h">
       <Filter>Source\CPP_Shooting_Tue\Public</Filter>
@@ -76,6 +82,9 @@
     <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\CPP_Shooting_TueGameModeBase.h">
       <Filter>Source\CPP_Shooting_Tue\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\DestroyZone.h">
+      <Filter>Source\CPP_Shooting_Tue\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\Enemy.h">
       <Filter>Source\CPP_Shooting_Tue\Public</Filter>
     </ClInclude>
@@ -83,6 +92,9 @@
       <Filter>Source\CPP_Shooting_Tue\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\EnemyMove.h">
+      <Filter>Source\CPP_Shooting_Tue\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\GameOverUI.h">
       <Filter>Source\CPP_Shooting_Tue\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CPP_Shooting_Tue\Public\PlayerFire.h">

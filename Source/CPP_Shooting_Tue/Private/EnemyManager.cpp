@@ -3,6 +3,7 @@
 
 #include "EnemyManager.h"
 #include "../Public/Enemy.h"
+#include "CPP_Shooting_TueGameModeBase.h"
 
 // Sets default values
 AEnemyManager::AEnemyManager()
@@ -23,6 +24,17 @@ void AEnemyManager::BeginPlay()
 void AEnemyManager::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	// 2. gamemode 가 필요하다.
+	auto gameMode = Cast<ACPP_Shooting_TueGameModeBase>(GetWorld()->GetAuthGameMode());
+	bool isPlaying = gameMode->state != EGameState::Playing;
+
+	// 1. 조건식이 있어야 한다.
+	if (isPlaying)
+	{
+		// 아래 내용은 처리하고 싶지 않다.
+		return;
+	}
 
 	// 1. 시간이 흘렀으니까
 	currentTime += DeltaTime;

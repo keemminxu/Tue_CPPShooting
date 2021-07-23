@@ -30,6 +30,7 @@ ABullet::ABullet()
 	{
 		bodyMesh->SetStaticMesh(tempMesh.Object);
 	}
+
 }
 
 // Called when the game starts or when spawned
@@ -37,6 +38,7 @@ void ABullet::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	SetLifeSpan(3);
 }
 
 // Called every frame
@@ -49,7 +51,7 @@ void ABullet::Tick(float DeltaTime)
 	FVector v = FVector::UpVector * speed;
 	FVector P = GetActorLocation() + v * DeltaTime;
 
-	SetActorLocation(P);
+	SetActorLocation(P, true);
 
 
 }
